@@ -13,6 +13,8 @@
 //See the License for the specific language governing permissions and
 //limitations under the License.
 //
+#![no_std]
+
 extern crate libc;
 
 use libc::{c_int,c_uchar, c_uint, uint64_t};
